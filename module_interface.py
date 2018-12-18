@@ -7,7 +7,7 @@ import pre_recognition_processing as prp
 import character_recognition as recognise
 import text_generator as tg
 import output_file_opener as opf
-noise_removed_image = nr.image_noise_removal(r'C:\Users\Acer\PycharmProjects\Image_processing-1\clear.jpg')
+noise_removed_image = nr.image_noise_removal(r'your directory here')
 skew_corrected = sc.skew_corrector(noise_removed_image)
 lines = ldr.line_extractor(skew_corrected)
 words = wdr.word_extractor(lines)
