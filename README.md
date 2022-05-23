@@ -1,4 +1,4 @@
-# OCR-
+# OCR
 This project implements the classical OCR pipeline using opencv-python.
 
 The code is written in python and uses the following libraries:
